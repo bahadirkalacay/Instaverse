@@ -26,6 +26,11 @@ export default makeStyles((theme) => ({
     paper: {
       width:"310px !important"
     }
+  },
+    "@media(max-width:500px)":{
+    paper: {
+      width:"90% !important"
+    }
   }
 }));
  
